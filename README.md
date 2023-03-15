@@ -3,8 +3,8 @@
 ## Details about service deployed:
 The "microservices-demo" repository on GitHub contains the source code for a cloud-native microservices application on Google Cloud Platform. The application comprises 11 different services, each serving a specific purpose, as described below:
 
-#1. Product Catalog Service: This service manages the product catalog for the application, including product details such as name, description, and price.
-2. User Service: This service handles user authentication and authorization, as well as user profile management.
+* Product Catalog Service: This service manages the product catalog for the application, including product details such as name, description, and price.
+* User Service: This service handles user authentication and authorization, as well as user profile management.
 3. Cart Service: This service manages the user's cart, including adding and removing items from the cart, and calculating the total cost of the items.
 4. Shipping Service: This service manages the shipping of the user's order, including determining the shipping address and calculating shipping costs.
 5. Payment Service: This service handles payment processing for the user's order, including validating payment information and charging the user's credit card.
