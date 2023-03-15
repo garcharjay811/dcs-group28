@@ -20,3 +20,6 @@ Overall, each service in the microservices application has a specific role and c
 ## Communication patterns
 
 The application employs the gRPC framework for communication between services, using a synchronous request-response pattern. Whenever a service needs to interact with another service, it sends a request message via gRPC, containing relevant operation data for the destination service to execute. The destination service processes the request, generates a response message containing operation results or error messages in case of failure, and sends it back to the originating service. This communication pattern is beneficial as it allows services to operate independently, scale efficiently, and evolve freely. Additionally, gRPC offers an efficient and high-performance communication mechanism for cloud-native microservices applications.
+
+## Design diagram provided by the developers of the application
+<img width="1778" alt="architecture-diagram" src="https://user-images.githubusercontent.com/39703778/225204560-8fbc9f44-62bc-48e8-9cae-89d7722f38bd.png">
