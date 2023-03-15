@@ -16,3 +16,7 @@ The "microservices-demo" repository on GitHub contains the source code for a clo
 * Queue Master Service: This service manages the queue of orders waiting to be processed by the shipping and payment services, and ensures that the orders are processed in a timely and efficient manner.
 
 Overall, each service in the microservices application has a specific role and contributes to the overall functionality of the application.
+
+## Communication patterns
+
+The application employs the gRPC framework for communication between services, using a synchronous request-response pattern. Whenever a service needs to interact with another service, it sends a request message via gRPC, containing relevant operation data for the destination service to execute. The destination service processes the request, generates a response message containing operation results or error messages in case of failure, and sends it back to the originating service. This communication pattern is beneficial as it allows services to operate independently, scale efficiently, and evolve freely. Additionally, gRPC offers an efficient and high-performance communication mechanism for cloud-native microservices applications.
