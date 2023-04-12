@@ -23,3 +23,6 @@ The application employs the gRPC framework for communication between services, u
 
 ## Design diagram provided by the developers of the application
 <img width="1778" alt="architecture-diagram" src="https://user-images.githubusercontent.com/39703778/225204560-8fbc9f44-62bc-48e8-9cae-89d7722f38bd.png">
+
+## Istio-Kiali Service Mesh view
+<img width="1778" alt="architecture-diagram" src="https://raw.githubusercontent.com/garcharjay811/dcs-group28/main/Istio-Kiali%20dashboard.png">
